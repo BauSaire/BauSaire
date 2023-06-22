@@ -4,42 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/35426f6673.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav>
             <ul>
-            <li>Sobre mi</li>
-            <li>Proyectos</li>
-            <li>Contacto</li>
+            <li><a href="#aboutMe">Sobre mí</a></li>
+            <li><a href="#projects">Mis proyectos</a></li>
+            <li><a href="#contact">Contactame</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="aboutMe">
-            <h1> Bautista Saire</h1>
-            <p>Desarrollador web</p>
-        </section>
-        <section id="projects">
-            <div class="project-container">
-                <p class="title"></p>
-                <img src="#" alt="">
-            </div>
-            <div class="project-container">
-                <p class="title"></p>
-                <img src="#" alt="">
-            </div>         <div class="project-container">
-                <p class="title"></p>
-                <img src="#" alt="">
+            <div class="card">
+                <div id="texto">
+                    <h2> Acerca de mí</h2>
+                    <p id="first-text">Hola! Soy <span id="name">Bautista Saire</span>, estudiante de Desarrollo de Software en la Universidad Nacional de Rafaela.</p>
+                    <p id="second-text">Me interesa explorar nuevas tecnologías y estar al tanto de las tendencias en el ámbito de la programación.</p>
+                    <p id="codepen"><a href="https://codepen.io/bauti-saire" target="_blank"><i class="fa-brands fa-codepen"></i></a></p>
+                    </div>
+                    <img src="https://hackmd.io/_uploads/rJf2fXz_3.jpg" alt="">
+            
             </div>
         </section>
+        <section id="projects"  class="projects-section">
+            <h2 class="projects-title">Proyectos</h2>
+            <div class="grid">
+            <a class="projects-link" href="https://codepen.io/bauti-saire/full/KKXBBBG" target="_blank">
+                <img class="img-projects" src="https://hackmd.io/_uploads/rJGnGmGOn.png" alt="Drum machine">
+                <p class="img-title">Drum machine</p>
+            </a>
+
+            <a class="projects-link" href="https://codepen.io/bauti-saire/full/QWOJzGP" target="_blank">
+                <img class="img-projects" src="https://hackmd.io/_uploads/SJlMhfXf_2.png" alt="Calculator">
+                <p class="img-title">Calculator</p>
+            </a>
+
+            <a class="projects-link" href="https://codepen.io/bauti-saire/full/abLLRBJ" target="_blank">
+                <img class="img-projects" src="https://hackmd.io/_uploads/SkGnzXGO2.png" alt="Random quote">
+                <p class="img-title">Random quote</p>
+            </a>
+
+            <a class="projects-link project-tile" href="https://codepen.io/bauti-saire/full/YzQoJyK" target="_blank">
+                <img class="img-projects" src="https://hackmd.io/_uploads/SkG3GmMO2.png" alt="Tic-tac-toe">
+                <p class="img-title">Tic-tac-toe</p>
+            </a>
+        </div>
+        </section>
+
     </main>
-    <footer>
+    <footer id="contact">
+
+        <p>Hecho con <span id="cora">♥ </span>por Bautista Saire</p>
         <ul>
-            <li>Instagram</li>
-            <li>Linkedin</li>
-            <li>Whatsapp</li>
-            <li>Gmail</li>
+            <li><a href="https://wa.link/n479py" target="_blank"><i class="icons fa-brands fa-whatsapp"></i></a></li>
+            <li><a href="mailto:sairebautista@gmail.com" target="_blank"><i class="icons fa-regular fa-envelope"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/bautista-saire-50bb2a209/" target="_blank"><i class="icons fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/bautisaire/" target="_blank" ><i class="icons fab fa-instagram"></i></a></li>
+
+
         </ul>
     </footer>
 </body>
